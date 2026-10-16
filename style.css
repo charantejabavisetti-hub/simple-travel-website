@@ -1,0 +1,100 @@
+/* Simple CSS for Travel World */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f8ff;
+    color: #222;
+}
+
+header {
+    background-color: #087e8b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.home {
+    background-color: #cceeff;
+    padding: 60px 15px;
+}
+
+.button, button {
+    background-color: #ffb703;
+    color: black;
+    border: none;
+    padding: 10px 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form {
+    max-width: 350px;
+    margin: auto;
+    text-align: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #087e8b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive design for mobile phones */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
